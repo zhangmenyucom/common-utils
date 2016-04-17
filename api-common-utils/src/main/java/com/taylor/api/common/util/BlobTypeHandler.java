@@ -18,7 +18,7 @@ import org.apache.log4j.Logger;
 /**
  * @notes:处理Blob类型中文乱码问题
  *
- * @author fei
+ * @author taylor
  *
  *         2014-4-25 下午4:00:43
  */

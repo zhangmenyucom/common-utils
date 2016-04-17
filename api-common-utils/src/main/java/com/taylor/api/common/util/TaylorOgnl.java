@@ -5,9 +5,9 @@ import java.util.List;
 import org.apache.commons.lang.StringUtils;
 
 
-public class HorizonOgnl {
+public class TaylorOgnl {
 	
-	private HorizonOgnl(){
+	private TaylorOgnl(){
 		
 	}
 	

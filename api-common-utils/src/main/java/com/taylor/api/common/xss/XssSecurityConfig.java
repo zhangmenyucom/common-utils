@@ -3,7 +3,7 @@ package com.taylor.api.common.xss;
 /**
  * @notes:安全过滤配置信息类
  *
- * @author fei
+ * @author taylor
  *
  * 2014-11-14	下午4:04:10
  */

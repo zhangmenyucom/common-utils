@@ -53,7 +53,7 @@ public class BigDecimalUtil {
 	 *
 	 * @param value		值
 	 * @param scale		长度
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-18	下午12:09:07
 	 */
 	public static String round(double value, int scale) {
@@ -65,7 +65,7 @@ public class BigDecimalUtil {
 	 *
 	 * @param value		值
 	 * @param scale		长度
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-18	下午12:10:32
 	 */
 	public static double roundNumber(double value, int scale) {

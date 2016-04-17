@@ -22,7 +22,7 @@ public class RandomUtil {
 	/**
 	 * @notes:随机产生几位数字：例：maxLength=3,则结果可能是 012
 	 * @param maxLength		生成的长度
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-16	上午10:13:18
 	 */
 	public static final int getNumber(int maxLength) {
@@ -34,7 +34,7 @@ public class RandomUtil {
 	 * @notes:随机产生区间数字<例：minNumber=1,maxNumber=2,则结果可能是 1、2,包括首尾。>
 	 * @param minNumber		首
 	 * @param maxNumber		尾
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-16	上午10:13:54
 	 */
 	public static int getRegionNumber(int minNumber, int maxNumber) {
@@ -44,7 +44,7 @@ public class RandomUtil {
 	/**
 	 * @notes:随机产生几位字符串<例：maxLength=3,则结果可能是 aAz>
 	 * @param maxLength			传入数必须是正数。
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-16	上午10:14:35
 	 */
 	public static String getString(int maxLength) {
@@ -54,7 +54,7 @@ public class RandomUtil {
 	/**
 	 * @notes:随机产生随机数字+字母：例：maxLength=3,则结果可能是 1Az
 	 * @param maxLength			传入数必须是正数。
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-16	上午10:16:30
 	 */
 	public static String getStringAndNumber(int maxLength) {
@@ -65,7 +65,7 @@ public class RandomUtil {
 	 * @notes:自定义随机产生结果
 	 * @param source			源字符串
 	 * @param maxLength			随机长度
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-16	上午10:16:56
 	 */
 	public static String getResultByCustom(String source, int maxLength) {
@@ -75,7 +75,7 @@ public class RandomUtil {
 	/**
 	 * @notes:获取大写字母的随机len
 	 * @param len			随机串长度
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-16	上午10:22:50
 	 */
 	public static String getUppercaseString(int len) {
@@ -85,7 +85,7 @@ public class RandomUtil {
 	/**
 	 * @notes:获取小写字母的随机len
 	 * @param len			随机串长度
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-16	上午10:24:32
 	 */
 	public static String getLowercaseString(int len) {
@@ -96,7 +96,7 @@ public class RandomUtil {
 	 * @notes:生产结果
 	 * @param maxLength
 	 * @param source
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-16	上午10:18:25
 	 */
 	private static String doProduce(int maxLength, String source) {
@@ -112,7 +112,7 @@ public class RandomUtil {
 	 * @notes:获取指定（maxLength）长度的随机数字
 	 *
 	 * @param maxLength		随机字条符串长度
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-5-12	上午10:30:40
 	 */
 	public static String getNumberByLength(int maxLength) {

@@ -17,7 +17,7 @@ import org.dom4j.io.SAXReader;
 /**
  * @notes:安全过滤配置管理类，由XSSSecurityManger修改
  *
- * @author fei
+ * @author taylor
  *
  * 2014-11-14	下午4:03:39
  */

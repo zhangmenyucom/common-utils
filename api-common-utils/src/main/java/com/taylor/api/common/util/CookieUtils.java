@@ -119,7 +119,7 @@ public class CookieUtils{
 	 * @param domain		域
 	 * @param request
 	 * @param response
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-5-19	下午4:01:32
 	 */
 	public static void clearCookies(String path, String domain, HttpServletRequest request, HttpServletResponse response){
@@ -146,7 +146,7 @@ public class CookieUtils{
 	 *
 	 * @param request
 	 * @param response
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-8-20	上午10:29:58
 	 */
 	public static String setSysCookieId(HttpServletRequest request, HttpServletResponse response) {

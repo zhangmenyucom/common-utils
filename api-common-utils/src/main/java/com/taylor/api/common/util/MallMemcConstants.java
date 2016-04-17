@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * @notes:平台组memcached key 管理类
  *
- * @author fei
+ * @author taylor
  *
  * 2015-12-10	下午7:29:50
  */

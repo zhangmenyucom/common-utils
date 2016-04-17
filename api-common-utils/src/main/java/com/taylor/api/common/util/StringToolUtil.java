@@ -11,7 +11,7 @@ public class StringToolUtil {
 	public final static Logger logger = Logger.getLogger(StringToolUtil.class);
 
 	/**
-	 * fei	2010-10-30	上午11:43:00
+	 * taylor	2010-10-30	上午11:43:00
 	 * 
 	 * @comment	过滤HTML的字符串截取方法
 	 * 
@@ -38,7 +38,7 @@ public class StringToolUtil {
 	}
 
 	/**
-	 * fei	2010-10-30	上午11:41:26
+	 * taylor	2010-10-30	上午11:41:26
 	 * 
 	 * @comment	字符截取方法
 	 * 
@@ -150,7 +150,7 @@ public class StringToolUtil {
 	 *
 	 * @param str		字符串
 	 * @param len		匹配长度
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-6-3	下午4:19:32
 	 */
 	public static String pullZero(String str, int len) {
@@ -172,7 +172,7 @@ public class StringToolUtil {
 //	 * 
 //	 * @param value
 //	 *            商品评分值
-//	 * @author fei 2014-5-9 下午12:02:16
+//	 * @author taylor 2014-5-9 下午12:02:16
 //	 */
 //	public static String getRatingInfoHtml(Float value) {
 //		StringBuilder html = new StringBuilder(0);
@@ -198,7 +198,7 @@ public class StringToolUtil {
 	 * 
 	 * @param value
 	 *            商品评分值
-	 * @author fei 2014-5-9 下午12:02:16
+	 * @author taylor 2014-5-9 下午12:02:16
 	 */
 	public static String getRatingInfoHtml4H5(Float value) {
 		StringBuilder html = new StringBuilder(0);

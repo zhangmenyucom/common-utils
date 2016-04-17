@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 
 /**
  * @notes:时间工具类
- * @author fei
+ * @author taylor
  * 
  *         2014-4-3 下午1:59:35
  */
@@ -90,7 +90,7 @@ public final class DateTools extends SimpleDateFormat {
 
 	/**
 	 * @notes:此类构造的日期工具类不可以格式化日期
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:00:10
 	 */
 	public static DateTools getDateTools() {
@@ -104,7 +104,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @notes:此类构造的日期工具类可以格式化日期
 	 * @param mode		模式 以哪种时间模式去创建或转换
 	 * @return			DateTools
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:00:20
 	 */
 	public static DateTools getDateTools(String mode) {
@@ -119,7 +119,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date		日期
 	 * @return	int month
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:00:40
 	 */
 	public int getMonth(Date date) throws ParseException {
@@ -132,7 +132,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date		日期
 	 * @return int year
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:00:58
 	 */
 	public int getYear(Date date) throws ParseException {
@@ -145,7 +145,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date		日期
 	 * @return int day
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:01:42
 	 */
 	public int getDate(Date date) throws ParseException {
@@ -158,7 +158,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date		日期
 	 * @return int minute 	
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:02:33
 	 */
 	public int getMinute(Date date) throws ParseException {
@@ -172,7 +172,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param isStandard	是否是24小时制的,true:是
 	 * @return int hour
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:03:17
 	 */
 	public int getHour(Date date, boolean isStandard) throws ParseException {
@@ -189,7 +189,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date		日期
 	 * @return int hour
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:04:07
 	 */
 	public int getSecond(Date date) throws ParseException {
@@ -202,7 +202,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param strDate		字符串日期
 	 * @return int month
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:04:39
 	 */
 	public int getMonth(String strDate) throws ParseException {
@@ -215,7 +215,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param strDate		字符串日期
 	 * @return int year
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:05:01
 	 */
 	public int getYear(String strDate) throws ParseException {
@@ -228,7 +228,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param strDate		字符串日期
 	 * @return <int> day of month
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:05:20
 	 */
 	public int getDate(String strDate) throws ParseException {
@@ -241,7 +241,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param strDate		字符串日期
 	 * @return	<int> minute of day
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:06:11
 	 */
 	public int getMinute(String strDate) throws ParseException {
@@ -255,7 +255,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param isStandard	是否是24小时制的,true:是
 	 * @return <int> hour of day
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:06:51
 	 */
 	public int getHour(String strDate, boolean isStandard) throws ParseException {
@@ -272,7 +272,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param strDate		字符串日期
 	 * @return <int> second of day
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:07:32
 	 */
 	public int getSecond(String strDate) throws ParseException {
@@ -286,7 +286,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param levevHour		要加减的小时数
 	 * @param isStandard	是还是24小时制
 	 * @return	Date
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:08:02
 	 */
 	public Date operationHour(Date date, int levevHour, boolean isStandard) {
@@ -305,7 +305,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param levevHour		要加减的分钟数
 	 * @param isStandard	是还是24小时制
 	 * @return	Date
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:08:49
 	 */
 	public Date operationMinute(Date date, int levevMinute) {
@@ -319,7 +319,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date			原有时间
 	 * @param levevYear		要加减的年份数
 	 * @return	Date
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:09:27
 	 */
 	public Date operationYear(Date date, int levevYear) {
@@ -333,7 +333,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date			原有时间
 	 * @param levevMonth	要加减的月份数
 	 * @return	Date
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:09:49
 	 */
 	public Date operationMonth(Date date, int levevMonth) {
@@ -347,7 +347,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date			原有时间
 	 * @param levevDate		要加减的月份数
 	 * @return	Date
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:10:12
 	 */
 	public Date operationDate(Date date, int levevDate) {
@@ -361,7 +361,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param date			原有时间
 	 * @param levevSecond	要加减的秒数
 	 * @return	Date
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:11:19
 	 */
 	public Date operationSecond(Date date, int levevSecond) {
@@ -377,7 +377,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param isStandard	是还是24小时制
 	 * @return	String
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:11:37
 	 */
 	public String operationHour(String strDate, int levevHour, boolean isStandard) throws ParseException {
@@ -396,7 +396,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param levevMinute		要加减的分钟数
 	 * @return	String
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:12:07
 	 */
 	public String operationMinute(String strDate, int levevMinute) throws ParseException {
@@ -411,7 +411,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param levevYear		要加减的年份数
 	 * @return	String
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:12:27
 	 */
 	public String operationYear(String strDate, int levevYear) throws ParseException {
@@ -426,7 +426,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param levevMonth		要加减的月份数
 	 * @return	String
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:12:47
 	 */
 	public String operationMonth(String strDate, int levevMonth) throws ParseException {
@@ -441,7 +441,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param levevDate		要加减的月份数
 	 * @return	Date
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:13:14
 	 */
 	public String operationDate(String strDate, int levevDate) throws ParseException {
@@ -456,7 +456,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param levevSecond		要加减的秒数
 	 * @return	Date
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:13:34
 	 */
 	public String operationSecond(String strDate, int levevSecond) throws ParseException {
@@ -471,7 +471,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param destDate		时间点2
 	 * @return	int
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:14:00
 	 */
 	public int getDaysOperationDate(Date srcDate, Date destDate) throws ParseException {
@@ -484,7 +484,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param strDestDate		时间点2
 	 * @return	int
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:14:15
 	 */
 	public int getDaysOperationDate(String strSrcDate, String strDestDate) throws ParseException {
@@ -497,7 +497,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param beforeDate	起始时间
 	 * @param currentDate	用户输入的时间
 	 * @return	boolean true:是介于两个时间段之间
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:14:39
 	 */
 	public boolean compareDate(Date afterDate, Date beforeDate, Date currentDate) {
@@ -514,7 +514,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param strCurrentDate	用户输入的时间
 	 * @return	boolean true:是介于两个时间段之间
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:15:06
 	 */
 	public boolean compareDate(String strAfterDate, String strBeforeDate, String strCurrentDate) throws ParseException {
@@ -554,7 +554,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @param endTime		结束时间
 	 * @return	boolean
 	 * @throws ParseException
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-3	下午2:15:36
 	 */
 	public boolean compareDate(String startTime, String endTime) throws ParseException {
@@ -584,7 +584,7 @@ public final class DateTools extends SimpleDateFormat {
 	 *
 	 * @param myDate
 	 * @param pattern
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-21	下午9:25:08
 	 */
 	public static String formatDateTime(Date myDate, String pattern) {
@@ -599,7 +599,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @notes:格式话日期为yyyy-MM-dd HH:mm:ss形式
 	 *
 	 * @param myDate
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-21	下午9:25:32
 	 */
 	public static String formatDateTime(Date myDate) {
@@ -610,7 +610,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @notes:将字符串转换成日期 yyyy-MM-dd HH:mm:ss
 	 *
 	 * @param rq
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-21	下午9:25:55
 	 */
 	public static Date getDateString(String rq) {
@@ -629,7 +629,7 @@ public final class DateTools extends SimpleDateFormat {
 	 *
 	 * @param str
 	 * @param pattern
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-21	下午9:27:56
 	 */
 	public static Date getDateByString(String str, String pattern) {
@@ -652,7 +652,7 @@ public final class DateTools extends SimpleDateFormat {
 	 * @notes:将字符串转换成日期  YYYY_MM_DD
 	 *
 	 * @param param
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-21	下午9:26:27
 	 */
 	public static Date parseDate(String param) {

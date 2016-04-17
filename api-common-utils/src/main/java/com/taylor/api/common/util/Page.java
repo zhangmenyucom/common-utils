@@ -110,7 +110,7 @@ public class Page<T> implements Serializable {
 	/**
 	 * @notes:分页浮动Lab 上一页/下一页	切换效果
 	 *
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-5-9	下午4:06:50
 	 */
 	public String getPageLab() {
@@ -140,7 +140,7 @@ public class Page<T> implements Serializable {
 	/**
 	 * @notes:向前取disModPage位
 	 *
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-18	下午3:37:17
 	 */
 	public String getPageStr() {
@@ -242,7 +242,7 @@ public class Page<T> implements Serializable {
 	 *
 	 * @param start		分页标签拼写开始位
 	 * @param end		分页标签拼写结束位
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-18	下午4:43:55
 	 */
 	private String getPageLabList(int start, int end) {
@@ -264,7 +264,7 @@ public class Page<T> implements Serializable {
 	/**
 	 * @notes:向前取disModPage位
 	 *
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-18	下午3:37:17
 	 */
 	public String getPageStr4Seo() {
@@ -374,7 +374,7 @@ public class Page<T> implements Serializable {
 	 *
 	 * @param start		分页标签拼写开始位
 	 * @param end		分页标签拼写结束位
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-4-18	下午4:43:55
 	 */
 	private String getPageLabList4Seo(int start, int end) {

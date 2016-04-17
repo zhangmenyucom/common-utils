@@ -180,7 +180,7 @@ public class ServletUtils {
 	 * @notes:获取Request中的 InputStream内容
 	 *
 	 * @param in		request InputStream
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-5-15	下午9:28:09
 	 */
 	public static String getRequestInputStream(InputStream in) {

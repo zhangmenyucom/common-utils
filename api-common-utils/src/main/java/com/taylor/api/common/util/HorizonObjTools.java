@@ -5,7 +5,7 @@ import org.apache.commons.lang.StringUtils;
 /**
  * @notes:数字工具类
  *
- * @author fei
+ * @author taylor
  *
  * 2014-7-18	下午3:43:03
  */
@@ -19,7 +19,7 @@ public class HorizonObjTools {
 	 * @notes:判断数据对象是否为空
 	 *
 	 * @param obj
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-7-18	下午3:45:27
 	 */
 	public static boolean isNull(Object obj) {
@@ -34,7 +34,7 @@ public class HorizonObjTools {
 	 * @notes:判断数据对象是否不为空
 	 *
 	 * @param obj
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-7-18	下午3:50:06
 	 */
 	public static boolean isNotNull(Object obj) {
@@ -45,7 +45,7 @@ public class HorizonObjTools {
 	 * @notes:对像转Integer类型
 	 *
 	 * @param obj
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-7-18	下午3:53:18
 	 */
 	public static Integer obj2Integer(Object obj) {
@@ -59,7 +59,7 @@ public class HorizonObjTools {
 	 * @notes:对像转Double类型
 	 *
 	 * @param obj
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-7-18	下午3:54:24
 	 */
 	public static Double obj2Double(Object obj) {
@@ -73,7 +73,7 @@ public class HorizonObjTools {
 	 * @notes:对像转Float类型
 	 *
 	 * @param obj
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-7-18	下午3:54:24
 	 */
 	public static Float obj2Float(Object obj) {
@@ -87,7 +87,7 @@ public class HorizonObjTools {
 	 * @notes:对像转Float类型
 	 *
 	 * @param obj
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-7-18	下午3:54:24
 	 */
 	public static String obj2String(Object obj) {

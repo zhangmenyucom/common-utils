@@ -56,7 +56,7 @@ public class MD5Util {
 	 * @notes:字符串MD5加密
 	 *
 	 * @param inStr
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-6-6	下午2:34:53
 	 */
 	public static String string2MD5(String inStr) {

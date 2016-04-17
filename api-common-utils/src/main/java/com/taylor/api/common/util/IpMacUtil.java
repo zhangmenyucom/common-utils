@@ -25,7 +25,7 @@ public class IpMacUtil {
 	 * @notes:获取客户端真实IP
 	 * 
 	 * @param request
-	 * @author fei 2014-7-28 上午10:58:06
+	 * @author taylor 2014-7-28 上午10:58:06
 	 */
 	public static String getRealIpAddr(HttpServletRequest request) {
 		String ipAddress = null;
@@ -194,7 +194,7 @@ public class IpMacUtil {
 	/**
 	 * @notes:获取服务器端MAC
 	 * 
-	 * @author fei 2014-7-28 下午4:46:00
+	 * @author taylor 2014-7-28 下午4:46:00
 	 */
 	public String getServerMac() {
 		String mac = "";

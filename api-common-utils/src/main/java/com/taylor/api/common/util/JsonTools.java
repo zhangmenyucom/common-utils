@@ -17,7 +17,7 @@ import net.sf.json.xml.XMLSerializer;
 /**
  * @notes:JSON工具类
  *
- * @author fei
+ * @author taylor
  *
  * 2014-6-23	下午9:23:52
  */

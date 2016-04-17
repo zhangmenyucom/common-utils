@@ -24,7 +24,7 @@ import freemarker.template.Version;
 /**
  * @notes:freemark	工具类
  *
- * @author fei
+ * @author taylor
  *
  * 2015-7-14	下午10:25:27
  */
@@ -37,7 +37,7 @@ public class FreeMarkerUtil {
 	/**
 	 * @notes:构造方法，处理初始模板加载
 	 * @param sourcePath
-	 * @auther fei
+	 * @auther taylor
 	 * 2015-7-14	下午10:24:32
 	 */
 	@SuppressWarnings("deprecation")
@@ -59,7 +59,7 @@ public class FreeMarkerUtil {
 	 * @param filePath			输出目录
 	 * @param fileName			输出文件
 	 * @param dataMap			输出数据
-	 * @author	fei
+	 * @author	taylor
 	 * 2015-7-14	下午10:24:28
 	 */
 	public static void autoFileByFtl(String fltName, String filePath, String fileName, Map<String, Object> dataMap) {

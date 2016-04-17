@@ -22,7 +22,7 @@ import org.apache.log4j.Logger;
 /**
  * @notes:HttpClient工具类
  *
- * @author fei
+ * @author taylor
  *
  * 2014-6-18	下午4:34:19
  */
@@ -44,7 +44,7 @@ public class HttpClientUtil {
 	 *
 	 * @param url			请求URL
 	 * @param paramMap		请求参数
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-6-18	下午5:06:12
 	 */
 	public static String get(String url, Map<String, Object> paramMap) {
@@ -118,7 +118,7 @@ public class HttpClientUtil {
 	 *
 	 * @param url			请求URL
 	 * @param paramMap		请求参数
-	 * @author	fei
+	 * @author	taylor
 	 * 2014-6-18	下午5:25:54
 	 */
 	public static String post(String url, Map<String, Object> paramMap) {
